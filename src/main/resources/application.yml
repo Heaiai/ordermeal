@@ -1,0 +1,17 @@
+server:
+  port: 8088
+  # 链接超时时间
+  connection-timeout: 5000
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ordermeal
+
+logging:
+  config: classpath:logback/logback-${spring.profiles.active}.xml
+
+mybatis:
+  type-aliases-package: com.heaiai.own.ordermeal
+  mapper-locations: classpath:mybatis/mappers/*Mapper.xml
