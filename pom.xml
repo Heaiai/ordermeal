@@ -22,7 +22,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
+            <version>8.0.28</version>
         </dependency>
 <!--        加载mybatis整合springboot-->
         <dependency>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
+            <version>8.0.28</version>
         </dependency>
 <!--        单元测试类-->
         <dependency>
@@ -91,7 +91,7 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>8.0.15</version>
+                        <version>8.0.28</version>
                     </dependency>
                 </dependencies>
             </plugin>
